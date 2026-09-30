@@ -1,0 +1,253 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeceralogo {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 150px;
+    padding: 0% 2%;
+    background-color: #0a0a0a;
+}
+
+#cabeceralogo > div {
+    flex: 1;
+    max-width: 960px;
+    padding-top: 45px;
+}
+
+#cabeceralogo h1 {
+    font: 80px "Titulo2";
+    color: #eeeeee;
+}
+
+
+#menuprincipal {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    height: 50px;
+    padding: 0% 2%;
+    background-color: #151515;
+    border-top: 1px solid #8b1e2d;
+    border-bottom: 1px solid #8b1e2d;
+}
+
+#menuprincipal > div {
+    flex: 1;
+    max-width: 960px;
+}
+
+#menuprincipal li {
+    display: inline-block;
+    height: 35px;
+    padding: 15px 10px 0px 10px;
+    margin-right: 5px;
+}
+
+#menuprincipal li:hover {
+    background-color: #8b1e2d;
+}
+
+#menuprincipal a {
+    font: 18px "Titulo";
+    color: #d0d0d0;
+    text-decoration: none;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 96%;
+    padding: 2%;
+    background-color: #1a1a1a;
+    background-image: url(../IMG/redpaper.jpg);
+}
+
+main > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+}
+
+
+#articulosprincipales {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: #292929;
+    border-radius: 10px;
+}
+
+#articulosprincipales a img {
+    border: 1px solid #8b1e2d;
+}
+
+#articulosprincipales h1 {
+    margin-bottom: 2px;
+    font: bold 38px "Titulo";
+    color: #984242;
+}
+
+article .album {
+    margin-bottom: 4px;
+    font: 28px "contenido";
+    color: #c6283d;
+    opacity: 0.85;
+}
+
+article .autor {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+    font: 13px "contenido2";
+    color: #cccccc;
+    opacity: 0.55;
+}
+
+#infoadicional {
+    width: 280px;
+    padding: 25px;
+    background-color: #202020;
+    border-radius: 10px;
+    border-left: 3px solid #8b1e2d;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+#infoadicional h1 {
+    font: 24px "Titulo";
+    color: #c6283d;
+    margin-bottom: 20px;
+}
+
+#infoadicional .song{
+    font: 16px "contenido3";
+    color: #fff;
+    font-size: 20px;
+    opacity: 0.80;
+}
+
+#infoadicional .from {
+    margin-top: 2px;
+    color: #bbbbbb;
+    font: 17px "contenido";
+    line-height: 1.5;
+    opacity: 0.75;
+}
+
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+}
+
+article time {
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -70px;
+    width: 80px;
+    padding: 15px 5px;
+    background-color: #8b1e2d;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.numerodia {
+    font: bold 36px Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nombredia {
+    font: 12px Verdana, sans-serif;
+    color: #dddddd;
+    text-align: center;
+}
+
+article h1 {
+    margin-bottom: 5px;
+    font: bold 30px Georgia, sans-serif;
+    color: #eeeeee;
+}
+
+article p {
+    font: 18px Georgia, sans-serif;
+    color: #cccccc;
+}
+
+
+figure {
+    margin: 10px 10px;
+}
+
+figure img {
+    max-width: 98%;
+    padding: 1%;
+    border: 1px solid #555555;
+}
+
+
+#pielogo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-width: 960px;
+    background-color: #080808;
+}
+
+#pielogo > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;
+    background-color: #111111;
+    border-radius: 10px;
+}
+
+.seccionpie {
+    flex: 1;
+    padding: 25px;
+}
+
+.seccionpie h1 {
+    font: bold 20px Arial, sans-serif;
+    color: #c6283d;
+}
+
+.seccionpie p {
+    margin-top: 5px;
+    color: #bbbbbb;
+}
+
+.seccionpie a {
+    font: bold 16px Arial, sans-serif;
+    color: #d32f45;
+    text-decoration: none;
+}
+
+.seccionpie a:hover {
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: "Titulo";
+    src: url("../fonts/Milesdane\ Trial.otf") format("woff2");
+}
+@font-face {
+    font-family: "Titulo2";
+    src: url("../fonts/Daustley.otf") format("woff2");
+}
+@font-face {
+    font-family: "contenido";
+    src: url("../fonts/Cavalhatriz.ttf") format("woff2");
+}
+@font-face {
+    font-family: "contenido2";
+    src: url("../fonts/Contenido2.ttf") format("woff2");
+}
+@font-face {
+    font-family: "contenido3";
+    src: url("../fonts/KGMidnightMemories.ttf") format("woff2");
+}
